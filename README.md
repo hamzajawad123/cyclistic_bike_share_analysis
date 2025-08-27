@@ -48,7 +48,6 @@ The analysis followed the **six-step data analysis framework**:
 
 ## Tech Stack  
 ![R](https://img.shields.io/badge/-R-blue?logo=r&logoColor=white)  
-![SQL](https://img.shields.io/badge/-SQL-lightgrey?logo=postgresql&logoColor=white)  
 ![Excel](https://img.shields.io/badge/-Excel-green?logo=microsoft-excel&logoColor=white)  
 ![PowerPoint](https://img.shields.io/badge/-PowerPoint-orange?logo=microsoft-powerpoint&logoColor=white)  
 
