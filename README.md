@@ -64,7 +64,7 @@ The analysis followed the **six-step data analysis framework**:
 ## Sample Visualizations  
 Here are a few visualizations generated during analysis:  
 
-![Ride Duration by Membership Type](./visuals/ride_duration_chart.png)  
+![Average Ride Length by User Type](./visuals/average_ride_length_by_user_type.png)  
 ![Weekly Usage Trends](./visuals/weekly_usage_chart.png)  
 ![Monthly Ride Patterns](./visuals/monthly_usage_chart.png)  
 
