@@ -1,87 +1,96 @@
-# cyclistic_bike_share_analysis
-End-to-end data analysis of Divvy bike-share trips (Q1 2019 &amp; Q1 2020) using R — including data cleaning, analyzing, visualization, and actionable insights for executive decision-making.
+# Cyclistic Bike-Share Case Study  
 
-# Cyclistic Bike-Share Case Study (Divvy Trips 2019–2020)
+## Overview  
+This project is part of the **Google Data Analytics Professional Certificate Capstone**.  
 
-## Overview
-This case study analyzes **Divvy Bike-Share trip data** for **Q1 2019 and Q1 2020** as part of the Cyclistic business problem.  
-The goal was to clean, analyze, and visualize bike usage data to uncover patterns and provide **data-driven recommendations** for converting casual riders into annual members.  
-
-This project follows the **Google Data Analytics Capstone Case Study** approach and demonstrates an **end-to-end workflow** from raw data to actionable business insights.
+The objective is to analyze **Cyclistic’s bike-share data** to understand how casual riders and annual members use the service differently. Insights are then used to recommend strategies that convert casual riders into paying members, ultimately boosting revenue.  
 
 ---
 
-## Repository Structure
-- **`/datasets`** → Raw and cleaned datasets (Divvy Trips Q1 2019 & Q1 2020).  
-- **`/code`** → R scripts and RMarkdown files for cleaning and analysis.  
-- **`/docs`** → Case study scenario, Scope of Work (SOW), and changelog.  
-- **`/deliverables`** → Final HTML report, executive presentation slides.  
-- **`/analysis_summaries`** → Excel summary files.  
+## Business Task  
+Design **data-driven marketing strategies** to maximize annual memberships by:  
+- Identifying behavioral differences between casual riders and members.  
+- Highlighting patterns in ride duration, frequency, and seasonality.  
+- Supporting recommendations with visual evidence.  
 
 ---
 
-## Tools & Technologies
-- **R & RMarkdown** → Data cleaning, wrangling, and visualization  
-- **SQL** → Querying and validation of datasets  
-- **Excel** → Summary statistics, pivot tables  
-- **PowerPoint** → Executive-level presentation  
-- **HTML Report** → Comprehensive analysis for stakeholders  
+## Datasets  
+The data comes from **Divvy (Cyclistic) trip data**, made publicly available by Motivate International Inc.  
+
+- [Divvy Trips Q1 2019 – Raw](https://www.kaggle.com/datasets/hamzajawad123/divvy-trips-2019-q1-dataset)
+- [Divvy Trips Q1 2020 – Raw](https://www.kaggle.com/datasets/hamzajawad123/divvy-trips-2020-q1-datasets)
+- [Cleaned Dataset](https://www.kaggle.com/datasets/hamzajawad123/cleaned-merged-final-2019-2020-dataset)  
+
+> Note: Due to GitHub file size restrictions, the datasets are hosted on **Kaggle**.  
 
 ---
 
-## Process
-1. **Data Collection**  
-   - Combined Divvy Trips Q1 2019 and Q1 2020 datasets.  
-   - Validated dataset structure and documented initial observations.  
+## Process  
+The analysis followed the **six-step data analysis framework**:  
 
-2. **Data Cleaning**  
-   - Removed nulls, duplicates, and inconsistent entries.  
-   - Standardized column formats (dates, ride types, membership categories).  
-   - Exported cleaned datasets for analysis.  
-
-3. **Exploratory Data Analysis (EDA)**  
-   - Descriptive statistics of ride lengths and trip counts.  
-   - Segmented riders by membership type (Casual vs. Member).  
-   - Time-based analysis (weekday/weekend, hourly patterns).  
-
-4. **Visualization**  
-   - Ride duration distributions.  
-   - Trends by weekday vs. weekend.  
-   - Seasonal and membership type comparisons.  
-
-5. **Insights & Recommendations**  
-   - Identified behavioral differences between casual and annual riders.  
-   - Suggested marketing strategies to convert casual riders into members.  
+1. **Ask** – Define the problem: “How do annual members and casual riders use Cyclistic bikes differently?”  
+2. **Prepare** – Collect and combine 2019 Q1 and 2020 Q1 datasets.  
+3. **Process** – Clean data (remove nulls, duplicates, inconsistencies).  
+4. **Analyze** – Compare ride patterns, durations, weekly trends, and seasonal differences.  
+5. **Share** – Build reports, dashboards, and visualizations to communicate findings.  
+6. **Act** – Recommend strategies to convert casual riders into members.  
 
 ---
 
-## Key Insights
-- Casual riders have **longer average trip durations** compared to annual members.  
-- **Weekends** show significantly higher casual rider activity.  
-- Members ride more frequently but for shorter durations.  
-- Targeted promotions and weekend-focused campaigns can drive **casual-to-member conversions**.  
+## Key Insights  
+- **Casual riders**: Longer average ride durations but less frequent use.  
+- **Members**: Shorter rides but more consistent daily and weekly usage.  
+- **Seasonality**: Casual rider usage peaks during weekends and warmer months.  
+- **Potential Growth**: Targeting casual riders with flexible membership packages can increase conversions.  
 
 ---
 
-## Deliverables
-- [Final Report (HTML)](./deliverables/cyclistic_analysis_report.html)  
-- [Executive Slides (PPTX)](./deliverables/cyclistic_analysis_slides.pptx)  
-- [Scope of Work (SOW)](./docs/case_study_1_SOW.docx)  
-- [Changelog](./docs/case_study_1_changelog.docx)  
+## Tech Stack  
+![R](https://img.shields.io/badge/-R-blue?logo=r&logoColor=white)  
+![SQL](https://img.shields.io/badge/-SQL-lightgrey?logo=postgresql&logoColor=white)  
+![Excel](https://img.shields.io/badge/-Excel-green?logo=microsoft-excel&logoColor=white)  
+![PowerPoint](https://img.shields.io/badge/-PowerPoint-orange?logo=microsoft-powerpoint&logoColor=white)  
 
 ---
 
-## Business Recommendations
-1. **Weekend Membership Promotions** → Offer discounted annual memberships targeted at casual weekend riders.  
-2. **Marketing Campaigns** → Focus on highlighting benefits of membership (cost savings, convenience, perks).  
-3. **Feature Enhancements** → Tailor services (bike availability, app features) to improve casual riders’ weekend experience.  
+## Deliverables  
+- [Case Study Report (PDF)](./deliverables/Cyclistic_Case_Study_Report.pdf)  
+- [PowerPoint Presentation](./deliverables/Cyclistic_Case_Study_Presentation.pptx)  
+- [Data Cleaning Script (R)](./scripts/data_cleaning.R)  
+- [Exploratory Data Analysis (R)](./scripts/eda_analysis.R)  
 
 ---
 
-## About This Project
-This project was developed as part of the **Google Data Analytics Professional Certificate Capstone Case Study**.  
-It showcases my ability to perform **data cleaning, analysis, visualization, and business storytelling** with real-world datasets.  
+## Sample Visualizations  
+Here are a few visualizations generated during analysis:  
+
+![Ride Duration by Membership Type](./visuals/ride_duration_chart.png)  
+![Weekly Usage Trends](./visuals/weekly_usage_chart.png)  
+![Monthly Ride Patterns](./visuals/monthly_usage_chart.png)  
 
 ---
-*Author: Hamza Jawad*  
-*Tools: R, Excel, PowerPoint*  
+
+## Recommendations  
+1. Introduce **weekend passes** to appeal to casual riders.  
+2. Offer **discounted trial memberships** for frequent casual users.  
+3. Use **personalized marketing campaigns** highlighting cost savings of memberships.  
+4. Partner with **local events** (festivals, sports) to capture seasonal casual users.  
+
+---
+
+## About This Project  
+This case study demonstrates **real-world data analytics skills** including:  
+- Data cleaning and wrangling  
+- Exploratory and statistical analysis  
+- Data visualization  
+- Business storytelling  
+- Actionable recommendations  
+
+---
+
+## Acknowledgements  
+- Data provided by [Motivate International Inc.](https://divvybikes.com/system-data) under public use agreement.  
+- Case study inspired by the **Google Data Analytics Professional Certificate**.  
+
+---
