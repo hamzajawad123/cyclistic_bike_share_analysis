@@ -62,11 +62,24 @@ The analysis followed the **six-step data analysis framework**:
 ---
 
 ## Sample Visualizations  
-Here are a few visualizations generated during analysis:  
 
+Here are a few key visualizations generated during the analysis:  
+
+**Visualization 1: Average Ride Length by User Type**  
+This chart compares the average ride duration between **casual riders** and **annual members**, highlighting differences in usage behavior.  
 ![Average Ride Length by User Type](./visuals/average_ride_length_by_user_type.png)  
-![Weekly Usage Trends](./visuals/weekly_usage_chart.png)  
-![Monthly Ride Patterns](./visuals/monthly_usage_chart.png)  
+
+---
+
+**Visualization 2: Ride Patterns by Day of Week**  
+This visualization shows ride frequency across days of the week, helping identify peak usage times for both casual and member riders.  
+![Ride Patterns by Day of Week](./visuals/ride_patterns_by_day_of_week.png)  
+
+---
+
+**Visualization 3: Top 5 Start Stations by User Type**  
+This chart highlights the most popular starting stations, segmented by user type, which can inform targeted marketing strategies.  
+![Top 5 Start Stations by User Type](./visuals/top_5_start_stations_by_user_type.png)  
 
 ---
 
