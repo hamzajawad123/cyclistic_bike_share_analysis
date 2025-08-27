@@ -16,7 +16,7 @@ This project follows the **Google Data Analytics Capstone Case Study** approach 
 - **`/code`** → R scripts and RMarkdown files for cleaning and analysis.  
 - **`/docs`** → Case study scenario, Scope of Work (SOW), and changelog.  
 - **`/deliverables`** → Final HTML report, executive presentation slides.  
-- **`/analysis_summaries`** → Excel summary and pivot table files.  
+- **`/analysis_summaries`** → Excel summary files.  
 
 ---
 
@@ -84,4 +84,4 @@ It showcases my ability to perform **data cleaning, analysis, visualization, and
 
 ---
 *Author: Hamza Jawad*  
-*Tools: R, SQL, Excel, PowerPoint*  
+*Tools: R, Excel, PowerPoint*  
